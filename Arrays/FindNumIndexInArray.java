@@ -4,7 +4,7 @@ import java.util.Scanner;
  * Take an Array as input from the user. 
  * Search for a given number x && print the index at which   it occurs
  */
-public class FindNumPositionInArray{
+public class FindNumIndexInArray{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in); // Using Scanner class for user input
         System.out.println("Size of an Array?");
@@ -21,7 +21,7 @@ public class FindNumPositionInArray{
 
         for(int i=0; i<numbers.length; i++){
             if(numbers[i]==num){
-                System.out.println("Number found at position: "+ i);
+                System.out.println("Number found at index: "+ i);
                 break;
             }else{
                 System.out.println("Number not found");
