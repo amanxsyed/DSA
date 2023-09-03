@@ -26,7 +26,6 @@ public class SwapAlternate {
         int size=sc.nextInt();
 
         int[] Array = new int[size];
-        //int[] odd = { 1, 3, 8, 7, 6, 5 };
 
         //input Numbers
         for(int i=0; i<size; i++){
