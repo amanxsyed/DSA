@@ -1,4 +1,5 @@
 import java.util.*;
+// Find the maximum & minimum number in an array of integers. 
 public class Max_Min_Num_Array{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -17,6 +18,7 @@ public class Max_Min_Num_Array{
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
 
+        //Finding Min Value in Array
         for(int i=0; i<numbers.length;i++){
             if(numbers[i] < min ){
                 min = numbers[i];
@@ -24,6 +26,7 @@ public class Max_Min_Num_Array{
             }
         }
 
+        //Finding Max Value in Array
         for(int i =0;i<numbers.length;i++){
             if(numbers[i] > max){
                 max = numbers[i];
